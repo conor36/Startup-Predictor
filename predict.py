@@ -21,7 +21,7 @@ def show_predict_page():
     
     st.set_page_config(page_title="Startup Predictor")
     
-    st.title("Predict if a Startup Will be Succesful ':rocket:')
+    st.title("Predict if a Startup Will be Succesful :rocket:")
 
     st.write("""#### This a project using Random Forest Classifaction model to determine if a startup will be acquired or closed based on the several values below. For a full breakdwon on how this was made, feel free to visit my medium article [here]. The full dataset can be found [here](https://www.kaggle.com/arindam235/startup-investments-crunchbase).""")
 
