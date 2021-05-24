@@ -19,7 +19,6 @@ def show_predict_page():
     footer {visibility: hidden;}
     </style> """, unsafe_allow_html=True)
     
-    st.set_page_config(page_title="Startup Predictor")
     
     st.title("Predict if a Startup Will be Succesful :rocket:")
 
