@@ -33,7 +33,7 @@ def show_predict_page():
 
     country = st.selectbox("Country of origin", countries)
 
-    funding = st.slider("Funding in total (USD)", 0, 10000000, 100000, step=100000)
+    funding = st.slider("Funding in total (USD)", 0, 50000000, 100000, step=100000)
 
     founded_year = st.slider("Year company was founded", 1995, 2013, 1995, step=1)
 
