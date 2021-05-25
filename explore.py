@@ -55,7 +55,7 @@ def show_explore_page():
 
     st.title("Explore Startup Data")
 
-    st.write("""## This page is a little exploreation of the datat provided by Crunchbase for startups around the world up until 2013""")
+    st.write("""## This page is a little exploration of the dataset provided by Crunchbase for startups around the world up until 2013""")
 
     st.write("""### The full dataset can be found [here](https://www.kaggle.com/arindam235/startup-investments-crunchbase)""")
 
